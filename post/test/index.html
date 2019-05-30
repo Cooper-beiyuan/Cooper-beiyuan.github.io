@@ -1,9 +1,9 @@
 <html>
   <head>
-  <meta charset="utf-8" />
+    <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea</title>
+<title>test | Gridea</title>
 <link rel="shortcut icon" href="https://cooper-beiyuan.github.io//favicon.ico?v=1559209872431">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -71,11 +71,71 @@
 </div>
 
 
-        <div class="tags-container">
-          
-            <a class="tag" href="https://cooper-beiyuan.github.io//tag/gridea">Gridea</a>
-          
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              test
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2019-05-30 ·
+              </time>
+              
+            </div>
+            
+            <div class="post-content">
+              <p>abc</p>
+<ol>
+<li>3213</li>
+</ol>
+<!-- more -->
+<p>bac
+<img src="https://cooper-beiyuan.github.io//post-images/1559209865312.png" alt=""></p>
+<!-- more -->
+<p>cba</p>
+
+            </div>
+          </article>
         </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://cooper-beiyuan.github.io//post/hello-gridea">
+              <h3 class="post-title">
+                Hello Gridea
+              </h3>
+            </a>
+          </div>
+        
+
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '3cb4c11f3a5650491b10',
+    clientSecret: 'e96a05ea0e2f5fc043647c41b21b7369d981d75e',
+    repo: 'Cooper-beiyuan.github.io',
+    owner: 'Cooper-beiyuan',
+    admin: ['Cooper-beiyuan'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
 
         <div class="site-footer">
   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
